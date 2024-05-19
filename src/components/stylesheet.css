@@ -1,0 +1,61 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.backgroundLogin{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./attachments/LoginBackground.png");
+    background-size: cover;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center center; /* Centers the image */
+}
+.loginCard{
+    height: 60vh;
+    width: 50vw;
+    background-color: rgb(4, 39, 4);
+    border-radius: 5vh;
+    opacity: 50%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.username{
+    width: 80%;
+    height: 10%;
+    background-color: transparent;
+    border: 2px solid rgb(35, 109, 35);
+    border-radius: 5vh;
+    text-align: center;
+    font-size: large;
+    margin-top: 10%;
+    color: white;
+    font-weight: bold;
+}
+.btn{
+    width: 80%;
+    height: 10%;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 5vh;
+    text-align: center;
+    font-size: large;
+    margin-top: 10%;
+    color: white;
+    font-weight: bold;
+}
+.signinCard{
+    height: 80vh;
+    width: 50vw;
+    background-color: rgb(4, 39, 4);
+    border-radius: 5vh;
+    opacity: 50%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}

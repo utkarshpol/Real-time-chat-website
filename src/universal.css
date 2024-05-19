@@ -1,0 +1,11 @@
+body,html{
+    margin:0;
+    padding: 0;
+    background-image: url('./components/attachments/LoginBackground.png');
+    background-size: cover;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center center; /* Centers the image */
+}
+.tint{
+    background-color: rgb(8, 87, 71);
+}
